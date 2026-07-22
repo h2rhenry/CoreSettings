@@ -1,0 +1,13 @@
+name: AdvancedSettings
+version: 1.0.0
+main: com.yourname.advancedsettings.AdvancedSettings
+api-version: 1.16
+commands:
+  settings:
+    description: Open the settings GUI or manage configurations.
+    aliases: [prefs, options]
+softdepend: [Essentials, ProtocolLib, PacketEvent, TAB, BetterTeams, ClanPlus]
+permissions:
+  advancedsettings.admin:
+    description: Admin access to settings and reloads
+    default: op

@@ -1,0 +1,39 @@
+gui:
+  title: "&6Your Settings"
+  size: 54
+settings:
+  pvp:
+    default: true
+    display-name: "&aPvP Mode"
+    material: "DIAMOND_SWORD"
+    slot: 10
+    description: "Toggle PvP on/off"
+    cost: 0.0
+  chat-visibility:
+    default: true
+    display-name: "&bChat Visibility"
+    material: "PAPER"
+    slot: 12
+    description: "Show/hide chat messages"
+    cost: 0.0
+  hide-players:
+    default: false
+    display-name: "&eHide Players"
+    material: "ENDER_PEARL"
+    slot: 14
+    description: "Make other players invisible"
+    cost: 50.0
+  show-clan:
+    default: true
+    display-name: "&dShow Clan Tag"
+    material: "NAME_TAG"
+    slot: 16
+    description: "Display your clan tag"
+    cost: 0.0
+  tab-show-clan-tag:
+    default: true
+    display-name: "&eShow Clan in Tab"
+    material: "PLAYER_HEAD"
+    slot: 28
+    description: "Show clan tag in tablist"
+    cost: 0.0
